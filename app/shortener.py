@@ -1,7 +1,5 @@
-import hashlib
 import base58
 import uuid
-
 
 
 async def generate_unique_short_url() -> str:
