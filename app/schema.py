@@ -23,9 +23,9 @@ class Mutation:
     async def shorten_url(
         self,
         original_url: str,
+        db: AsyncIOMotorClient,
         custom_alias: str = None,
         expiry_date: str = None,
-        db: AsyncIOMotorClient,
     ) -> URL:
         pass
 

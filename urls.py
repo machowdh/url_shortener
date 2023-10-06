@@ -1,7 +1,7 @@
 import strawberry
 from fastapi import Depends
 from motor.motor_asyncio import AsyncIOMotorClient
-from app.schemas import URL
+from app.schema import URL
 from .dependencies import get_database
 
 
